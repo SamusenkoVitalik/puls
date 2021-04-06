@@ -1,0 +1,42 @@
+@media (max-width: 991px){
+    .promo{
+    padding: 21px 40px 93px 40px;
+    }
+    .consultation{
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 767px){
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    .advantages{
+        padding: 70px 15px 78px 15px;
+        &__item{
+            max-width: 230px;
+        }
+        &__descr{
+            font-size: 12px;
+        }
+    }
+    .consultation{
+        padding-left: 0;
+        &__descr{
+            text-align: center;
+        }
+    }
+    .title{
+        &_left{
+            text-align: center;
+        }
+    }
+    .feed-form{
+        margin: 36px auto 0;
+        input{
+            width: 100%;
+        }
+    }
+}
