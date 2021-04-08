@@ -2,9 +2,16 @@
     padding: 81px 0;
     &__inner{
         position: relative;
-        width: 750px;
+        max-width: 750px;
         margin: 0 auto;
+        
     }
+    &__img{
+        img{
+            width: 100%;
+        }
+    }
+   
     .slick-prev, .slick-next{
         position: absolute;
         top: 50%;
@@ -20,6 +27,23 @@
     .slick-next{
         left: auto;
         right: -66px;
+    }
+    .slick-dots{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        li{
+            display: block;
+            width: 30px;
+            height: 5px;
+            background: rgb(122, 122, 122);
+            button{
+                display: none;
+            }
+            &:nth-child(2){
+                margin: 0 10px;
+            }
+        }
     }
  
 }
