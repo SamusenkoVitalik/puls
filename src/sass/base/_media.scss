@@ -43,6 +43,11 @@
             width: 100%;
         }
     }
+    .catalog{
+        &__content{
+            justify-content: center;
+        }
+    }
 }
 
 @media (max-width: 767px){
@@ -100,6 +105,22 @@
     }
     .carousel{
         padding: 20px 0;
+    }
+    .catalog{
+        padding-bottom: 20px;
+        &__tabs{
+            flex-wrap: wrap;
+            margin-top: 30px;
+
+        }
+        &__tab{
+
+            font-size: 14px;
+            margin: 2px 5px;
+        }
+        &__content{
+            margin-top: 20px
+        }
     }
     
 }
@@ -170,5 +191,9 @@
         font-size: 16px;
        }
    }
-   
+   .catalog{
+    &__content{
+        margin-top: 20px;
+    }
+}
 }
