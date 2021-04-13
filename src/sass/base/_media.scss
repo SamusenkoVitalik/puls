@@ -260,5 +260,18 @@
     .title{
         padding: 0 10px;
     }
+    .modal{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        &__close{
+            top: 5px;
+            right: 5px;
+        }
+
+        .feed-form{
+            width: 260px;
+        }
+    }
 }
 
